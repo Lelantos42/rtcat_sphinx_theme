@@ -1,25 +1,25 @@
 # -*- coding: utf-8 -*-
-"""`sphinx_rtd_theme` lives on `Github`_.
+"""`rtcat_sphinx_theme` lives on `Github`_.
 
-.. _github: https://www.github.com/snide/sphinx_rtd_theme
+.. _github: https://github.com/RTCat/rtcat_sphinx_theme.git
 
 """
 from setuptools import setup
-from sphinx_rtd_theme import __version__
+from rtcat_sphinx_theme import __version__
 
 
 setup(
-    name='sphinx_rtd_theme',
+    name='rtcat_sphinx_theme',
     version=__version__,
-    url='https://github.com/snide/sphinx_rtd_theme/',
+    url='https://github.com/RTCat/rtcat_sphinx_theme.git',
     license='MIT',
-    author='Dave Snider',
-    author_email='dave.snider@gmail.com',
-    description='ReadTheDocs.org theme for Sphinx, 2013 version.',
+    author='Dave Snider, RealTimeCat',
+    author_email='dave.snider@gmail.com, info@learning-tech.com',
+    description=' Sphinx theme for http://docs.shishimao.com/',
     long_description=open('README.rst').read(),
     zip_safe=False,
-    packages=['sphinx_rtd_theme'],
-    package_data={'sphinx_rtd_theme': [
+    packages=['rtcat_sphinx_theme'],
+    package_data={'rtcat_sphinx_theme': [
         'theme.conf',
         '*.html',
         'static/css/*.css',

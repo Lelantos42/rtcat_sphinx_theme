@@ -121,7 +121,7 @@
 
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           {% block menu %}
-            {% set toctree = toctree(maxdepth=theme_navigation_depth, collapse=theme_collapse_navigation, includehidden=True) %}
+            {% set toctree = toctree(maxdepth=theme_navigation_depth|int, collapse=theme_collapse_navigation, includehidden=True) %}
             {% if toctree %}
                 {{ toctree }}
             {% else %}
@@ -170,7 +170,7 @@
             VERSION:'{{ release|e }}',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'{{ '' if no_search_suffix else file_suffix }}',
-            HAS_SOURCE:  {{ has_source|lower }}
+            HAS_SOURCE: '{{ has_source|lower }}'
         };
     </script>
     {%- for scriptfile in script_files %}
