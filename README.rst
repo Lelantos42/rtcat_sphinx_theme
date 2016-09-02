@@ -1,4 +1,4 @@
-.. _sphinx_rtc_theme: https://github.com/snide/sphinx_rtd_theme
+.. _sphinx_rtd_theme: https://github.com/snide/sphinx_rtd_theme
 .. _syncing a fork: https://help.github.com/articles/syncing-a-fork/
 .. _bower: http://www.bower.io
 .. _sphinx: http://www.sphinx-doc.org
