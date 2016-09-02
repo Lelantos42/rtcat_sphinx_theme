@@ -50,7 +50,7 @@ In your ``conf.py`` file:
 Via git or download
 -------------------
 
-Symlink or subtree the ``RTCat/rtcat_sphinx_theme`` repository into your documentation at
+Symlink or submodule/subtree the ``RTCat/rtcat_sphinx_theme`` repository into your documentation at
 ``docs/_themes/rtcat_sphinx_theme`` then add the following two settings to your Sphinx
 conf.py file:
 
@@ -76,6 +76,8 @@ Set up your environment
 
 .. code::
 
+    virtualenv ve
+    source ve/bin/activate
     pip install sphinx
 
 2. Install sass
@@ -87,9 +89,6 @@ Set up your environment
 2. Install node, bower and grunt.
 
 .. code::
-
-    // Install node
-    brew install node
 
     // Install bower and grunt
     npm install -g bower grunt-cli
