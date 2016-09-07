@@ -4559,7 +4559,7 @@ div[class^='highlight'] pre {
 .wy-nav-content {
   padding: 1.618em 3.236em;
   height: 100%;
-  max-width: 100%;
+  min-height: 100vh;
   margin: auto;
 }
 
@@ -4599,6 +4599,10 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 .rst-footer-buttons:after {
   clear: both;
+}
+
+.document {
+  min-height: 58vh;
 }
 
 #search-results .search li {
@@ -4672,6 +4676,10 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   .wy-nav-content {
     margin: 0;
     background: #fcfcfc;
+  }
+
+  .document {
+    min-height: 71vh;
   }
 }
 @media print {

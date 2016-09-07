@@ -1,3 +1,4 @@
+
 .wy-affix
   position: fixed
   top: $gutter
@@ -311,7 +312,8 @@
 .wy-nav-content
   padding: $gutter $gutter * 2
   height: 100%
-  max-width: 100%
+  min-height: 100vh
+  //max-width: 800px
   margin: auto
 
 .wy-body-mask
@@ -337,6 +339,9 @@ footer
 
 .rst-footer-buttons
   +clearfix
+
+.document
+  min-height: 58vh
 
 #search-results
   .search li
@@ -392,6 +397,8 @@ footer
   .wy-nav-content
     margin: 0
     background: $section-background-color
+  .document
+    min-height: 71vh
 
 @media print
   .rst-versions, footer, .wy-nav-side
