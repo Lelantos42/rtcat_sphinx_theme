@@ -2566,7 +2566,7 @@ a .fa, a .wy-menu-vertical li span.toctree-expand, .wy-menu-vertical li a span.t
   padding: 12px;
   line-height: 24px;
   margin-bottom: 24px;
-  background: #e7f2fa;
+  background: #f3f9fe;
 }
 
 .wy-alert-title, .rst-content .admonition-title {
@@ -2574,7 +2574,7 @@ a .fa, a .wy-menu-vertical li span.toctree-expand, .wy-menu-vertical li a span.t
   font-weight: bold;
   display: block;
   color: #fff;
-  background: #6ab0de;
+  background: #63aff5;
   margin: -12px;
   padding: 6px 12px;
   margin-bottom: 12px;
@@ -2595,10 +2595,10 @@ a .fa, a .wy-menu-vertical li span.toctree-expand, .wy-menu-vertical li a span.t
 }
 
 .wy-alert.wy-alert-info, .rst-content .note, .rst-content .wy-alert-info.attention, .rst-content .wy-alert-info.caution, .rst-content .wy-alert-info.danger, .rst-content .wy-alert-info.error, .rst-content .wy-alert-info.hint, .rst-content .wy-alert-info.important, .rst-content .wy-alert-info.tip, .rst-content .wy-alert-info.warning, .rst-content .seealso, .rst-content .wy-alert-info.admonition-todo {
-  background: #e7f2fa;
+  background: #f3f9fe;
 }
 .wy-alert.wy-alert-info .wy-alert-title, .rst-content .note .wy-alert-title, .rst-content .wy-alert-info.attention .wy-alert-title, .rst-content .wy-alert-info.caution .wy-alert-title, .rst-content .wy-alert-info.danger .wy-alert-title, .rst-content .wy-alert-info.error .wy-alert-title, .rst-content .wy-alert-info.hint .wy-alert-title, .rst-content .wy-alert-info.important .wy-alert-title, .rst-content .wy-alert-info.tip .wy-alert-title, .rst-content .wy-alert-info.warning .wy-alert-title, .rst-content .seealso .wy-alert-title, .rst-content .wy-alert-info.admonition-todo .wy-alert-title, .wy-alert.wy-alert-info .rst-content .admonition-title, .rst-content .wy-alert.wy-alert-info .admonition-title, .rst-content .note .admonition-title, .rst-content .wy-alert-info.attention .admonition-title, .rst-content .wy-alert-info.caution .admonition-title, .rst-content .wy-alert-info.danger .admonition-title, .rst-content .wy-alert-info.error .admonition-title, .rst-content .wy-alert-info.hint .admonition-title, .rst-content .wy-alert-info.important .admonition-title, .rst-content .wy-alert-info.tip .admonition-title, .rst-content .wy-alert-info.warning .admonition-title, .rst-content .seealso .admonition-title, .rst-content .wy-alert-info.admonition-todo .admonition-title {
-  background: #6ab0de;
+  background: #63aff5;
 }
 
 .wy-alert.wy-alert-success, .rst-content .wy-alert-success.note, .rst-content .wy-alert-success.attention, .rst-content .wy-alert-success.caution, .rst-content .wy-alert-success.danger, .rst-content .wy-alert-success.error, .rst-content .hint, .rst-content .important, .rst-content .tip, .rst-content .wy-alert-success.warning, .rst-content .wy-alert-success.seealso, .rst-content .wy-alert-success.admonition-todo {
@@ -2616,7 +2616,7 @@ a .fa, a .wy-menu-vertical li span.toctree-expand, .wy-menu-vertical li a span.t
   background: #e1e4e5;
 }
 .wy-alert.wy-alert-neutral a, .rst-content .wy-alert-neutral.note a, .rst-content .wy-alert-neutral.attention a, .rst-content .wy-alert-neutral.caution a, .rst-content .wy-alert-neutral.danger a, .rst-content .wy-alert-neutral.error a, .rst-content .wy-alert-neutral.hint a, .rst-content .wy-alert-neutral.important a, .rst-content .wy-alert-neutral.tip a, .rst-content .wy-alert-neutral.warning a, .rst-content .wy-alert-neutral.seealso a, .rst-content .wy-alert-neutral.admonition-todo a {
-  color: #2980B9;
+  color: #0E7EE4;
 }
 
 .wy-alert p:last-child, .rst-content .note p:last-child, .rst-content .attention p:last-child, .rst-content .caution p:last-child, .rst-content .danger p:last-child, .rst-content .error p:last-child, .rst-content .hint p:last-child, .rst-content .important p:last-child, .rst-content .tip p:last-child, .rst-content .warning p:last-child, .rst-content .seealso p:last-child, .rst-content .admonition-todo p:last-child {
@@ -2650,7 +2650,7 @@ a .fa, a .wy-menu-vertical li span.toctree-expand, .wy-menu-vertical li a span.t
   background: #27AE60;
 }
 .wy-tray-container li.wy-tray-item-info {
-  background: #2980B9;
+  background: #0E7EE4;
 }
 .wy-tray-container li.wy-tray-item-warning {
   background: #E67E22;
@@ -2725,7 +2725,7 @@ button[disabled] {
 }
 
 .btn-hover {
-  background: #2e8ece;
+  background: #1b8bf1;
   color: #fff;
 }
 
@@ -2780,10 +2780,10 @@ button[disabled] {
 }
 
 .btn-info {
-  background-color: #2980B9 !important;
+  background-color: #0E7EE4 !important;
 }
 .btn-info:hover {
-  background-color: #2e8ece !important;
+  background-color: #1b8bf1 !important;
 }
 
 .btn-neutral {
@@ -2828,18 +2828,18 @@ button[disabled] {
 
 .btn-link {
   background-color: transparent !important;
-  color: #2980B9;
+  color: #0E7EE4;
   box-shadow: none;
   border-color: transparent !important;
 }
 .btn-link:hover {
   background-color: transparent !important;
-  color: #409ad5 !important;
+  color: #3397f2 !important;
   box-shadow: none;
 }
 .btn-link:active {
   background-color: transparent !important;
-  color: #409ad5 !important;
+  color: #3397f2 !important;
   box-shadow: none;
 }
 .btn-link:visited {
@@ -2894,7 +2894,7 @@ button[disabled] {
   cursor: pointer;
 }
 .wy-dropdown-menu > dd > a:hover {
-  background: #2980B9;
+  background: #0E7EE4;
   color: #fff;
 }
 .wy-dropdown-menu > dd.divider {
@@ -2935,7 +2935,7 @@ button[disabled] {
   padding: 6px 12px;
 }
 .wy-dropdown.wy-dropdown-bubble .wy-dropdown-menu a:hover {
-  background: #2980B9;
+  background: #0E7EE4;
   color: #fff;
 }
 
@@ -3379,7 +3379,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled] {
 }
 
 .wy-inline-validate.wy-inline-validate-info .wy-input-context {
-  color: #2980B9;
+  color: #0E7EE4;
 }
 
 .rotate-90 {
@@ -3609,12 +3609,12 @@ input[type="radio"][disabled], input[type="checkbox"][disabled] {
 }
 
 a {
-  color: #2980B9;
+  color: #0E7EE4;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover {
-  color: #3091d1;
+  color: #1f8df1;
 }
 a:visited {
   color: #9B59B6;
@@ -3671,11 +3671,11 @@ a.wy-text-warning:hover {
 }
 
 .wy-text-info {
-  color: #2980B9 !important;
+  color: #0E7EE4 !important;
 }
 
 a.wy-text-info:hover {
-  color: #409ad5 !important;
+  color: #3397f2 !important;
 }
 
 .wy-text-success {
@@ -4377,7 +4377,7 @@ div[class^='highlight'] pre {
   color: #b3b3b3;
 }
 .wy-menu-vertical a:active {
-  background-color: #2980B9;
+  background-color: #0E7EE4;
   cursor: pointer;
   color: #fff;
 }
@@ -4391,7 +4391,7 @@ div[class^='highlight'] pre {
   padding: 0.809em;
   margin-bottom: 0.809em;
   z-index: 200;
-  background-color: #2980B9;
+  background-color: #0E7EE4;
   text-align: center;
   padding: 0.809em;
   display: block;
@@ -4402,14 +4402,14 @@ div[class^='highlight'] pre {
   width: 100%;
   border-radius: 50px;
   padding: 6px 12px;
-  border-color: #2472a4;
+  border-color: #0d71cc;
 }
 .wy-side-nav-search img {
   display: block;
   margin: auto auto 0.809em auto;
   height: 45px;
   width: 45px;
-  background-color: #2980B9;
+  background-color: #0E7EE4;
   padding: 5px;
   border-radius: 100%;
 }
@@ -4444,13 +4444,13 @@ div[class^='highlight'] pre {
 }
 
 .wy-nav .wy-menu-vertical header {
-  color: #2980B9;
+  color: #0E7EE4;
 }
 .wy-nav .wy-menu-vertical a {
   color: #b3b3b3;
 }
 .wy-nav .wy-menu-vertical a:hover {
-  background-color: #2980B9;
+  background-color: #0E7EE4;
   color: #fff;
 }
 
@@ -4483,6 +4483,7 @@ div[class^='highlight'] pre {
   background: left repeat-y #fcfcfc;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxOERBMTRGRDBFMUUxMUUzODUwMkJCOThDMEVFNURFMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxOERBMTRGRTBFMUUxMUUzODUwMkJCOThDMEVFNURFMCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjE4REExNEZCMEUxRTExRTM4NTAyQkI5OEMwRUU1REUwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjE4REExNEZDMEUxRTExRTM4NTAyQkI5OEMwRUU1REUwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+EwrlwAAAAA5JREFUeNpiMDU0BAgwAAE2AJgB9BnaAAAAAElFTkSuQmCC);
   background-size: 300px 1px;
+  color: #444;
 }
 
 .wy-grid-for-nav {
@@ -4515,7 +4516,7 @@ div[class^='highlight'] pre {
 
 .wy-nav-top {
   display: none;
-  background: #2980B9;
+  background: #0E7EE4;
   color: #fff;
   padding: 0.4045em 0.809em;
   position: relative;
@@ -4539,7 +4540,7 @@ div[class^='highlight'] pre {
   margin-right: 12px;
   height: 45px;
   width: 45px;
-  background-color: #2980B9;
+  background-color: #0E7EE4;
   padding: 5px;
   border-radius: 100%;
 }
@@ -4703,7 +4704,7 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   z-index: 400;
 }
 .rst-versions a {
-  color: #2980B9;
+  color: #0E7EE4;
   text-decoration: none;
 }
 .rst-versions .rst-badge-small {
@@ -4861,9 +4862,15 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 .rst-content .line-block {
   margin-left: 24px;
 }
-.rst-content .topic-title {
+.rst-content .topic .topic-title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #555;
   font-weight: bold;
   margin-bottom: 12px;
+}
+.rst-content .topic {
+  margin: 0 16px;
 }
 .rst-content .toc-backref {
   color: #404040;
@@ -4874,11 +4881,32 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 .rst-content .align-left {
   float: left;
-  margin: 0px 24px 24px 0px;
+  margin: 0 24px 24px 0;
 }
 .rst-content .align-center {
   margin: auto;
   display: block;
+}
+.rst-content .document h1 {
+  font-size: 23px;
+  line-height: 40px;
+}
+.rst-content .document h2, .rst-content .document .toctree-wrapper p.caption, .rst-content .toctree-wrapper .document p.caption {
+  font-size: 21px;
+  line-height: 30px;
+}
+.rst-content .document h3 {
+  font-size: 19px;
+  line-height: 20px;
+}
+.rst-content .document p {
+  font-size: 15px;
+  margin: 0 0 8px 0;
+}
+.rst-content .document a.reference.external, .rst-content .document a.reference.external em, .rst-content .document a.reference.internal, .rst-content .document a.reference.internal em {
+  color: #0E7EE4;
+  text-decoration: none;
+  cursor: pointer;
 }
 .rst-content h1 .headerlink, .rst-content h2 .headerlink, .rst-content .toctree-wrapper p.caption .headerlink, .rst-content h3 .headerlink, .rst-content h4 .headerlink, .rst-content h5 .headerlink, .rst-content h6 .headerlink, .rst-content dl dt .headerlink, .rst-content p.caption .headerlink {
   display: none;
@@ -4983,7 +5011,7 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   color: #404040;
 }
 .rst-content a tt, .rst-content a tt, .rst-content a code {
-  color: #2980B9;
+  color: #0E7EE4;
 }
 .rst-content dl {
   margin-bottom: 24px;
@@ -5005,14 +5033,14 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   margin: 6px 0;
   font-size: 90%;
   line-height: normal;
-  background: #e7f2fa;
-  color: #2980B9;
-  border-top: solid 3px #6ab0de;
+  background: #f3f9fe;
+  color: #0E7EE4;
+  border-top: solid 3px #63aff5;
   padding: 6px;
   position: relative;
 }
 .rst-content dl:not(.docutils) dt:before {
-  color: #6ab0de;
+  color: #63aff5;
 }
 .rst-content dl:not(.docutils) dt .headerlink {
   color: #404040;

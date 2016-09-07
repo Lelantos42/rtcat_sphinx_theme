@@ -85,9 +85,14 @@
     margin-left: $base-line-height
 
   // Generics handling of headings and toc stuff.
-  .topic-title
+  .topic .topic-title
+    font-size: 16px
+    line-height: 20px
+    color: #555
     font-weight: bold
     margin-bottom: $base-line-height / 2
+  .topic
+    margin: 0 16px
   .toc-backref
     color: $text-color
   .align-right
@@ -95,7 +100,7 @@
     margin: 0 0 $base-line-height $base-line-height
   .align-left
     float: left
-    margin: 0px $base-line-height $base-line-height 0px
+    margin: 0 $base-line-height $base-line-height 0
   .align-center
     margin: auto
     display: block
@@ -103,6 +108,24 @@
     @extend h2
 
   // This is the #href that shows up on hover. Sphinx's is terrible so I hack it away.
+  .document
+    h1
+      font-size: 23px
+      line-height: 40px
+    h2
+      font-size: 21px
+      line-height: 30px
+    h3
+      font-size: 19px
+      line-height: 20px
+    p
+      font-size: 15px
+      margin: 0 0 8px 0
+    a.reference.external, a.reference.external em, a.reference.internal, a.reference.internal em
+      color: $blue
+      text-decoration: none
+      cursor: pointer
+
   h1, h2, h3, h4, h5, h6, dl dt, p.caption
     .headerlink
       display: none
