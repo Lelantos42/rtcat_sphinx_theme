@@ -4189,6 +4189,17 @@ div[class^='highlight'] pre {
     display: none;
   }
 }
+a:visited {
+  color: #0E7EE4;
+}
+
+.wy-side-nav-search input[type=text] {
+  width: 100%;
+  border-radius: 0px;
+  padding: 6px 12px;
+  border: 1px solid #00b7ee;
+}
+
 .wy-affix {
   position: fixed;
   top: 1.618em;
@@ -4850,6 +4861,10 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   background: transparent !important;
   border-color: rgba(0, 0, 0, 0.1) !important;
 }
+.rst-content .toctree-wrapper ul li {
+  list-style: none;
+  margin-left: 20px;
+}
 .rst-content .section ol.loweralpha, .rst-content .section ol.loweralpha li {
   list-style: lower-alpha;
 }
@@ -4870,7 +4885,7 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   margin-bottom: 12px;
 }
 .rst-content .topic {
-  margin: 0 16px;
+  margin: 0 30px;
 }
 .rst-content .toc-backref {
   color: #404040;
@@ -4890,23 +4905,29 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 .rst-content .document h1 {
   font-size: 23px;
   line-height: 40px;
+  font-weight: 400;
 }
 .rst-content .document h2, .rst-content .document .toctree-wrapper p.caption, .rst-content .toctree-wrapper .document p.caption {
   font-size: 21px;
   line-height: 30px;
+  font-weight: 400;
+  margin-top: 20px;
 }
 .rst-content .document h3 {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 20px;
+  font-weight: 400;
+  margin-top: 15px;
 }
 .rst-content .document p {
-  font-size: 15px;
-  margin: 0 0 8px 0;
+  font-size: 14px;
+  margin: 0 0 1px 0;
 }
 .rst-content .document a.reference.external, .rst-content .document a.reference.external em, .rst-content .document a.reference.internal, .rst-content .document a.reference.internal em {
   color: #0E7EE4;
   text-decoration: none;
   cursor: pointer;
+  font-style: normal;
 }
 .rst-content h1 .headerlink, .rst-content h2 .headerlink, .rst-content .toctree-wrapper p.caption .headerlink, .rst-content h3 .headerlink, .rst-content h4 .headerlink, .rst-content h5 .headerlink, .rst-content h6 .headerlink, .rst-content dl dt .headerlink, .rst-content p.caption .headerlink {
   display: none;

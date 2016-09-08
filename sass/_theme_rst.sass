@@ -73,6 +73,9 @@
       border-color: rgba(0,0,0,.1) !important
   .section ul, .toctree-wrapper ul
     @extend .wy-plain-list-disc
+  .toctree-wrapper ul li
+    list-style: none
+    margin-left: 20px
   .section ol.loweralpha, .section ol.loweralpha li
     list-style: lower-alpha
   .section ol.upperalpha, .section ol.upperalpha li
@@ -92,7 +95,7 @@
     font-weight: bold
     margin-bottom: $base-line-height / 2
   .topic
-    margin: 0 16px
+    margin: 0 30px
   .toc-backref
     color: $text-color
   .align-right
@@ -112,19 +115,25 @@
     h1
       font-size: 23px
       line-height: 40px
+      font-weight: 400
     h2
       font-size: 21px
       line-height: 30px
+      font-weight: 400
+      margin-top: 20px
     h3
-      font-size: 19px
+      font-size: 18px
       line-height: 20px
+      font-weight: 400
+      margin-top: 15px
     p
-      font-size: 15px
-      margin: 0 0 8px 0
+      font-size: 14px
+      margin: 0 0 1px 0
     a.reference.external, a.reference.external em, a.reference.internal, a.reference.internal em
       color: $blue
       text-decoration: none
       cursor: pointer
+      font-style: normal
 
   h1, h2, h3, h4, h5, h6, dl dt, p.caption
     .headerlink
