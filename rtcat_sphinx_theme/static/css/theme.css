@@ -4310,11 +4310,11 @@ a.btn.btn-neutral:hover {
   color: #4d4d4d;
 }
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current > a {
-  color: #404040;
+  color: #0E6FD2;
   padding: 0.4045em 1.618em;
   font-weight: bold;
   position: relative;
-  background: #fcfcfc;
+  background: #343131 !important;
   border: none;
   padding-left: 1.618em -4px;
 }
@@ -4330,22 +4330,26 @@ a.btn.btn-neutral:hover {
   line-height: 1.6em;
   color: #333333;
 }
-.wy-menu-vertical li.toctree-l1.current li.toctree-l2, .wy-menu-vertical li.toctree-l2.current li.toctree-l3 {
+.wy-menu-vertical li.toctree-l1.current, .wy-menu-vertical li.toctree-l1.current li.toctree-l2, .wy-menu-vertical li.toctree-l2.current li {
+  color: #0E6FD2;
   background: #343131;
 }
-.wy-menu-vertical li.toctree-l1.current li.toctree-l2 > a, .wy-menu-vertical li.toctree-l1.current li.toctree-l2 > a:hover, .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a, .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {
+.wy-menu-vertical li.toctree-l1.current span.toctree-expand, .wy-menu-vertical li.toctree-l1.current li.toctree-l2 span.toctree-expand, .wy-menu-vertical li.toctree-l2.current li span.toctree-expand {
+  color: #343131;
+}
+.wy-menu-vertical li.toctree-l1.current > a:hover, .wy-menu-vertical li.toctree-l1.current li.toctree-l2 > a:hover, .wy-menu-vertical li.toctree-l2.current li > a:hover {
   color: #0E6FD2;
   background: #343131;
   border-bottom: 0;
   border-top: 0;
 }
-.wy-menu-vertical li.toctree-l1.current li.toctree-l2 > a span.toctree-expand, .wy-menu-vertical li.toctree-l1.current li.toctree-l2 > a:hover span.toctree-expand, .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a span.toctree-expand, .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover span.toctree-expand {
+.wy-menu-vertical li.toctree-l1.current > a:hover span.toctree-expand, .wy-menu-vertical li.toctree-l1.current li.toctree-l2 > a:hover span.toctree-expand, .wy-menu-vertical li.toctree-l2.current li > a:hover span.toctree-expand {
   color: #0E6FD2;
 }
-.wy-menu-vertical li.toctree-l1.current li.toctree-l2 > ul, .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > ul {
+.wy-menu-vertical li.toctree-l1.current > ul, .wy-menu-vertical li.toctree-l1.current li.toctree-l2 > ul, .wy-menu-vertical li.toctree-l2.current li > ul {
   display: none;
 }
-.wy-menu-vertical li.toctree-l1.current li.toctree-l2.current > ul, .wy-menu-vertical li.toctree-l2.current li.toctree-l3.current > ul {
+.wy-menu-vertical li.toctree-l1.current.current > ul, .wy-menu-vertical li.toctree-l1.current li.toctree-l2.current > ul, .wy-menu-vertical li.toctree-l2.current li.current > ul {
   display: block;
 }
 .wy-menu-vertical li.toctree-l2 a {
@@ -4358,9 +4362,12 @@ a.btn.btn-neutral:hover {
   background: #343131;
   padding: 0.4045em 2.427em;
 }
+.wy-menu-vertical li.toctree-l2.current > a span.toctree-expand {
+  color: #343131;
+}
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a {
   display: block;
-  background: #c9c9c9;
+  background: #343131;
   padding: 0.4045em 4.045em;
 }
 .wy-menu-vertical li.toctree-l2 a:hover span.toctree-expand {
@@ -4377,12 +4384,12 @@ a.btn.btn-neutral:hover {
   border-right: 0;
 }
 .wy-menu-vertical li.toctree-l3.current > a {
-  background: #bdbdbd;
+  background: #343131;
   padding: 0.4045em 4.045em;
 }
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4 > a {
   display: block;
-  background: #bdbdbd;
+  background: #343131;
   padding: 0.4045em 5.663em;
   border-top: none;
   border-bottom: none;

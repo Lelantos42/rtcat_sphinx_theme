@@ -97,11 +97,11 @@ a.btn.btn-neutral:hover
 
   // On state for the first level
   li.on a, li.current > a
-    color: $menu-link-color
+    color: $blue
     padding: $gutter / 4 $gutter
     font-weight: bold
     position: relative
-    background: $menu-vertical-background-color
+    background: #343131 !important
     border: none
     padding-left: $gutter -4px
     +font-smooth
@@ -118,9 +118,12 @@ a.btn.btn-neutral:hover
       color: darken($menu-link-medium, 30%)
 
   // This is the on state for pages beyond second level
-  li.toctree-l1.current li.toctree-l2, li.toctree-l2.current li.toctree-l3
+  li.toctree-l1.current, li.toctree-l1.current li.toctree-l2, li.toctree-l2.current li
+    color: $blue
     background: #343131
-    > a, > a:hover
+    span.toctree-expand
+      color: #343131
+    > a:hover
       color: $blue
       background: #343131
       border-bottom: 0
@@ -140,9 +143,11 @@ a.btn.btn-neutral:hover
       > a
         background: #343131
         padding: $gutter / 4 $gutter * 1.5
+        span.toctree-expand
+          color: #343131
       li.toctree-l3 > a
         display: block
-        background: darken($menu-vertical-background-color, 20%)
+        background: #343131
         padding: $gutter / 4 $gutter * 2.5
     a:hover span.toctree-expand
       color: $menu-link-medium
@@ -155,11 +160,11 @@ a.btn.btn-neutral:hover
       border-right: 0
     &.current
       > a
-        background: darken($menu-vertical-background-color, 25%)
+        background: #343131
         padding: $gutter / 4 $gutter * 2.5
       li.toctree-l4 > a
         display: block
-        background: darken($menu-vertical-background-color, 25%)
+        background: #343131
         padding: $gutter / 4 $gutter * 3.5
         border-top: none
         border-bottom: none
