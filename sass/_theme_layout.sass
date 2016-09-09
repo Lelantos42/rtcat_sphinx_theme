@@ -1,13 +1,17 @@
+em
+  font-style: normal
+
 a:visited
   color: $blue
 
-.wy-side-nav-search input[type=text]
-  width: 100%
-  border-radius: 0px
-  padding: 6px 12px
+.simple
+  margin-bottom: 0!important
+
+.wy-side-scroll .wy-side-nav-search input[type=text]
+  border-radius: 0!important
   border: 1px solid #00b7ee
 
-.wy-affix
+.wy-affixs
   position: fixed
   top: $gutter
 
@@ -87,8 +91,6 @@ a:visited
     position: relative
     background: $menu-vertical-background-color
     border: none
-    border-bottom: solid 1px darken($menu-vertical-background-color, 20%)
-    border-top: solid 1px darken($menu-vertical-background-color, 20%)
     padding-left: $gutter -4px
     +font-smooth
     &:hover
@@ -105,14 +107,26 @@ a:visited
 
   // This is the on state for pages beyond second level
   li.toctree-l1.current li.toctree-l2, li.toctree-l2.current li.toctree-l3
+    background: #343131
+    > a, > a:hover
+      color: $blue
+      background: #343131
+      border-bottom: 0
+      border-top: 0
+      span.toctree-expand
+        color: $blue
     > ul
       display: none
     &.current > ul
       display: block
+
   li.toctree-l2
+    a
+      border-right: 0
     &.current
+      background: #343131
       > a
-        background: darken($menu-vertical-background-color, 20%)
+        background: #343131
         padding: $gutter / 4 $gutter * 1.5
       li.toctree-l3 > a
         display: block
@@ -120,10 +134,13 @@ a:visited
         padding: $gutter / 4 $gutter * 2.5
     a:hover span.toctree-expand
       color: $menu-link-medium
+      background: #343131
     span.toctree-expand
       color: darken($menu-vertical-background-color, 35%)
   li.toctree-l3
     font-size: .9em
+    a
+      border-right: 0
     &.current
       > a
         background: darken($menu-vertical-background-color, 25%)
@@ -135,7 +152,8 @@ a:visited
         border-top: none
         border-bottom: none
     a:hover span.toctree-expand
-      color: $menu-link-medium
+      color: $blue
+
     span.toctree-expand
       color: darken($menu-vertical-background-color, 40%)
   li.toctree-l4
@@ -179,12 +197,10 @@ a:visited
   padding: $gutter / 2
   margin-bottom: $gutter / 2
   z-index: $z-index-popover
+  background-image: linear-gradient(#0E7EE4 0%, #343131 100%)
   background-color: $nav-search-background-color
   text-align: center
-  padding: $gutter / 2
-  display: block
   color: $nav-search-color
-  margin-bottom: $gutter / 2
   input[type=text]
     width: 100%
     border-radius: 50px

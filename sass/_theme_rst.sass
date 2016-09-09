@@ -93,7 +93,7 @@
     line-height: 20px
     color: #555
     font-weight: bold
-    margin-bottom: $base-line-height / 2
+    margin: 12px 0
   .topic
     margin: 0 30px
   .toc-backref
@@ -115,7 +115,6 @@
     h1
       font-size: 23px
       line-height: 40px
-      font-weight: 400
     h2
       font-size: 21px
       line-height: 30px
@@ -233,7 +232,11 @@
       line-height: normal
 
     &.literal
-      color: $text-code-color
+      color: #888
+      background-color: rgba(0,0,0,.04)
+      border: none
+      font-size: 13px
+
     &.xref, a &
       font-weight: bold
       color: $text-codexref-color
