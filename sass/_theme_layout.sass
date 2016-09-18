@@ -1,3 +1,6 @@
+body
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft Yahei", "WenQuanYi Micro Hei", Arial, Verdana, sans-serifsans-serif
+
 em
   font-style: normal
 
@@ -5,11 +8,11 @@ a:visited
   color: $blue
 
 .simple
-  margin-bottom: 0!important
+  margin-bottom: 0 !important
 
 a.btn.btn-neutral
   padding: 5px 14px
-  background-color: #ffffff!important
+  background-color: #ffffff !important
   border: 1px solid #dddddd
   border-radius: 4px
   margin-top: 15px
@@ -17,10 +20,10 @@ a.btn.btn-neutral
   color: $blue !important
 
 a.btn.btn-neutral:hover
-  background-color: #eee!important
+  background-color: #eee !important
 
 .wy-side-scroll .wy-side-nav-search input[type=text]
-  border-radius: 0!important
+  border-radius: 0 !important
   border: 1px solid #00b7ee
 
 .wy-affixs
@@ -36,7 +39,7 @@ a.btn.btn-neutral:hover
   ul, li
     display: inline-block
   li:hover
-    background: rgba(255,255,255,.1)
+    background: rgba(255, 255, 255, .1)
   li
     &.divide-left
       border-left: solid 1px hsl(0, 0%, 25%)
@@ -52,7 +55,6 @@ a.btn.btn-neutral:hover
   width: $nav-desktop-width
   header, p.caption
     height: $base-font-size * 2
-    display: inline-block
     line-height: $base-font-size * 2
     padding: 0 $gutter
     margin-bottom: 0
@@ -192,7 +194,6 @@ a.btn.btn-neutral:hover
     display: inline-block
     line-height: 18px
     padding: $gutter / 4 $gutter
-    display: block
     position: relative
     font-size: 90%
     color: $menu-link-light
@@ -240,24 +241,28 @@ a.btn.btn-neutral:hover
     margin-bottom: $gutter / 2
     +font-smooth
     &:hover
-      background: rgba(255,255,255,.1)
+      background: rgba(255, 255, 255, .1)
     img.logo
-      display: block  // display on its own line all the time
+      display: block
+      // display on its own line all the time
       margin: 0 auto
-      height: auto  // undo badge styling above
+      height: auto
+      // undo badge styling above
       width: auto
       border-radius: 0
-      max-width: 100%  // shrink on mobile, if appropriate
-      background: rgba(0,0,0,0)  // make hover background of parent show up properly
+      max-width: 100%
+      // shrink on mobile, if appropriate
+      background: rgba(0, 0, 0, 0)
+    // make hover background of parent show up properly
     &.icon
       img.logo
-        margin-top: 0.85em  // space it away from the title text
+        margin-top: 0.85em
+  // space it away from the title text
   > div.version
     margin-top: -1 * ($gutter / 4)
     margin-bottom: $gutter / 2
     font-weight: normal
-    color: rgba(255,255,255,.3)
-
+    color: rgba(255, 255, 255, .3)
 
 .wy-nav .wy-menu-vertical
   header
@@ -286,7 +291,6 @@ a.btn.btn-neutral:hover
     right: -100%
     left: auto
     opacity: 0
-
 
 .wy-body-for-nav
   background: left repeat-y $section-background-color
@@ -357,22 +361,24 @@ a.btn.btn-neutral:hover
   min-height: 100vh
   //max-width: 800px
   margin: auto
+  font-size: 14px
 
 .wy-body-mask
   position: fixed
   width: 100%
   height: 100%
-  background: rgba(0,0,0,.2)
+  background: rgba(0, 0, 0, .2)
   display: none
   z-index: $z-index-modal - 1
   &.on
     display: block
+
 footer
   color: $footer-color
   p
     margin-bottom: $base-line-height / 2
   span.commit code
-    padding: 0px
+    padding: 0
     font-family: $code-font-family
     font-size: 1em
     background: none
@@ -400,7 +406,6 @@ footer
   .context
     color: $text-medium
     font-size: 90%
-
 
 +media($tablet)
   .wy-body-for-nav
@@ -435,7 +440,7 @@ footer
 
 +media($desktop-wider)
   .wy-nav-content-wrap
-    background: rgba(0,0,0,.05)
+    background: rgba(0, 0, 0, .05)
   .wy-nav-content
     margin: 0
     background: $section-background-color
