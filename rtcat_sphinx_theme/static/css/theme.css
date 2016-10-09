@@ -4613,6 +4613,7 @@ a.btn.btn-neutral:hover {
   margin-left: 300px;
   background: #fcfcfc;
   min-height: 100%;
+  font-size: 14px;
 }
 
 .wy-nav-content {
@@ -4751,6 +4752,13 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
     margin-left: 0;
   }
 }
+.rst-content .document h3 {
+  margin-left: 15px;
+}
+.rst-content .document p {
+  margin: 0 15px 1px;
+}
+
 .rst-versions {
   position: fixed;
   bottom: 0;
